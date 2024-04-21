@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #121214;
+  padding: 74px 104px;
+  display: grid;
+  justify-content: center;
+  font-family: "Mulish", sans-serif;
+}
+
+main {
+  margin-top: 62px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px 48px;
+}
+
+.galaxies {
+  background-color: #202024;
+  border: 2px solid #323238;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.galaxies p {
+  padding: 24px 32px 32px;
+  color: #e1e1e6;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.galaxies h2 {
+  padding: 24px 32px 0;
+  font-size: 36px;
+  color: #e1e1e6;
+  font-weight: 900;
+}
+
+h1 {
+  color: #17799d;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 72px
+}
+
+p {
+  color: #e1e1e6;
+  font-weight: 600;
+  font-size: 32px;
+}
